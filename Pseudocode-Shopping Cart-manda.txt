@@ -1,0 +1,24 @@
+Program Calculate Jumalah Barang di ShoppingCart
+
+int jumlah_barang, total
+string produk
+
+//mencari produk yang diinginkan//
+
+if (produk) != null
+    ADD (jumlah_barang)
+else
+    PRINT "Produk tidak tersedia"
+end if
+
+//menambahkan barang ke shopping cart//
+
+if (jumlah_barang) != 0 
+    ADD (produk, jumlah_barang)
+else 
+    PRINT "Stok produk tidak tersedia"
+end if
+
+READ (produk, jumlah_barang)
+STORE total with CALCULATE sum (jumlah_barang) of all (produk)
+PRINT (total)
